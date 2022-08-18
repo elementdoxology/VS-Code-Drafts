@@ -1,0 +1,30 @@
+.container {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* the attribute justify-content works on the horizontal axis
+of the content and align-items works on the vertical axiz
+of the contnent */
+.box {
+    flex: 1 1 300px;
+    height: 100px;
+}
+.box:nth-of-type(1) {
+    background: darkseagreen;
+}
+.box:nth-of-type(2) {
+    background: darkslategray;
+}
+.box:nth-of-type(3) {
+    background: darkturquoise;
+}
+.box:nth-of-type(4) {
+    background: cadetblue;
+}
+.box:nth-of-type(5) {
+    background: cornflowerblue;
+}
+.box:nth-of-type(6) {
+    background: dimgray;
+}

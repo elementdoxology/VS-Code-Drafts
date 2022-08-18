@@ -1,0 +1,44 @@
+.box-container {
+    width: 80%;
+    height: 200vh;
+    background-color: beige;
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    width: 30%;
+    height: 20%;
+    background-color: cornflowerblue;
+    margin: 20px auto;
+    position: static;
+}
+
+.box:nth-of-type(1) {
+    background-color: silver;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.menu {
+    background: salmon;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+img {
+    margin: auto;
+    width: 92%;
+    height: 68%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+h1 {
+    text-align: center;
+}

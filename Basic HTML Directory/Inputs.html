@@ -1,0 +1,63 @@
+<form action="/my-site/submit">
+    
+    <div>
+        <label for="colors">Pick a color</label>
+        <select name="colors" id="colors">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+    </div>
+<!--when making checkboxes, you should write 
+    a different attribute name for each checkbox-->
+    <div>
+        <div>
+            <label for="first-opt">First</label>
+            <input type="checkbox" id="first-opt" name="first-opt">
+        </div>
+        <div>
+            <label for="second-opt">Second</label>
+            <input type="checkbox" id="second-opt" name="second-opt">
+        </div>
+        <div>
+            <label for="third-opt">Third</label>
+            <input type="checkbox" id="third-opt" name="third-opt" checked>
+        </div>
+    </div>
+<!--when making radios, you should write 
+    the same attribute name for all radios-->
+    <!-- also include the value parameter for each radio input-->
+    <div>
+        <label for="single-opt">Select a single option</label>
+        <div>
+            <label for="a">A</label>
+            <input 
+            name="single-opt" 
+            type="radio" 
+            id="a" 
+            value="a"
+            >
+        </div>
+        <div>
+            <label for="b">B</label>
+            <input 
+            name="single-opt" 
+            type="radio" 
+            id="b" 
+            value="b"
+            >
+        </div>
+        <div>
+            <label for="c">C</label>
+            <input 
+            name="single-opt" 
+            type="radio" 
+            id="c" 
+            value="c"
+            checked
+            >
+        </div>
+    </div>
+
+    <input type="submit">
+</form>

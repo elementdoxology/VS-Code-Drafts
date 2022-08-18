@@ -1,0 +1,15 @@
+div {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    border: 1px solid black;
+    padding: 10vh 20vw;
+    margin: 50px;
+    background-color: skyblue;
+    box-sizing: content-box;
+}
+
+/* when you want to change the spacing of a box on the webpage, 
+remember that you can use "content-box" or "border-box"
+according to the box-sizing attribute*/

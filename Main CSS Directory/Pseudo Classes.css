@@ -1,0 +1,27 @@
+/* I figured it out! 
+I needed to reduced the margin value */
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    margin: 0%;
+    transition: 1.5s ease all;
+}
+.box:nth-child(2) {
+    background-color: lightblue;
+}
+
+.box:nth-child(2):hover {
+    cursor: pointer;
+    transition: 1.5s ease all;
+    transform: translatex(25px);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::after {
+    content: '✅';
+}

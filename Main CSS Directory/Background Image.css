@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: left;
+    font-family: Geneva;
+    padding-top: 15%;
+    margin-left: 50px;
+}
+
+#bane {
+    background: bottom / 100% url('Bane.png');
+    height: 540px;
+}

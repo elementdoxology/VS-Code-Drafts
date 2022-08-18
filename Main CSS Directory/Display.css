@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+a {
+    margin: 20px;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    height: 40px;
+}
+
+.box-container {
+    background: bottom / 100% url('Bane.png');
+    height: 515px;
+}

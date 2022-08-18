@@ -1,0 +1,29 @@
+/* elements */ 
+* {
+    margin: 5;
+}
+h1 {
+    background-color: cornflowerblue;
+    color: white;
+}
+/*  other examples of making elements
+html {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+    * {
+        background-color: skyblue;
+    }
+    replacing the html with an asterisk will 
+    highlight all text in the page
+*/ 
+
+/* classes */ 
+.sub-header {
+    font-size: 30px;
+}
+
+/* id's */ 
+#main-header {
+    font-size: 80px;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+/* text attributes */
+h1 {
+    font-family: Impact;
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.secondary {
+    color: blue;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: skyblue;
+}
+
+/* the specificity hierarchy
+first comes id's
+second comes classes
+third comes elements
+last comes the asterisks
+*/ 

@@ -1,0 +1,58 @@
+/* star selectors, variable names and 
+those that are not classes should go in the top */
+html, body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.outermost-container {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+.sidebar {
+    width: 15%;
+    background-color: red;
+}
+
+.content-container {
+    width: 100%;
+    height: 85%;
+}
+.content-container > header {
+    background-color: orange;
+}
+.content-container > div {
+    background-color: grey;
+}
+
+
+/* classes should go in the bottom */
+
+/* css logic: group things together in terms of class 
+and the header, div and h1 are all 
+considered child selectors within class="content-container" 
+and the child selectors are always below 
+the parent selectors */
+
+/* you can replace these selectors 
+header h4 {
+    color: white;
+}
+.sidebar h2 {
+    color: white;
+}
+.content-container > div > h1 {
+    color: white;
+}
+with the "color: white;" attribute 
+inside the "html, body {}" selector */

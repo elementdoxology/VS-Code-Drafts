@@ -1,0 +1,28 @@
+/* mobile first styles */
+body {
+    font-size: 2rem;
+}
+.container {
+    background: lightgray;
+}
+
+/* iPads have this second style */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 3rem;
+    }
+    .container {
+        background: cadetblue;
+        margin: 20px;
+    }
+}
+
+/* desktops have this third style */
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 4rem;
+    }
+    .container {
+        background: forestgreen;
+    }
+}

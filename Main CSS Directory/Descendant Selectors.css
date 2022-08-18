@@ -1,0 +1,57 @@
+/* notice that only the first <p> is medium blue
+the tilde means stands for "adjacent" */
+h1,h2:hover {
+    color: mediumblue;
+    font-size: 25px strong;
+    transition: 1.5s ease all;
+    transform: translatex(1rem);
+}
+
+/* the remaining <p> tags are indian red */
+p {
+    color: indianred;
+    font-size: 15px;
+}
+
+/* the text from the adjacent tag is underlined
+the plus (+) determines the property of only one text from the tag*/
+div + p {
+    font-weight: bold;
+}
+
+/* only the <p> tags in the inner body of the headers 
+have a Courier New font
+the tilde (~) applies to the first applied text of the tag
+and the rest below have the same property*/
+p ~ p {
+    font-size: 25px;
+    font-family: 'Courier New';
+    margin: 20px;
+}
+
+.secondary {
+    text-decoration: underline;
+}
+
+/* "h3+p" is orignally indian red 
+h1 reduces to the size of <p>
+even when the font size is 150% */
+h3+p,h1:hover {
+    cursor: pointer;
+    color: wheat;
+    font-size: 150%;
+    transition: 1.5s ease all;
+}
+
+/* anything after the h2 header and
+anything inside the <div> element
+as long as the inner elements 
+do not have classes assigned to them */
+h2 ~ * {
+    text-decoration: line-through;
+}
+
+div ~ p {
+    font-style: italic;
+}
+
